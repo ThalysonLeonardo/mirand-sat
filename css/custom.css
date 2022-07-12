@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+header .navbar-collapse {
+    width: auto;
+} 
+
+header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--secondary);
+    border-bottom: solid 4px transparent;
+}
+
+header .nav-link:hover {
+    border-bottom: solid 4px var(--primary);
+    color: var(--primary);
+}
+
+#slider {
+    background: url(../assets/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--primary);
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+
+.price {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    padding: 20px 0 20px 0;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+#pricing .subtitle {
+    margin-bottom: 25px;
+}
+
+.price:hover {
+    padding-top: 10%;
+}
+
+.price h5 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.price h1 {
+    text-align: center;
+}
+
+.price ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+}
+
+.price li {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.price h5 {
+    text-transform: uppercase;
+}
+
+.price .fa-circle-check {
+    margin-right: 10px;
+}
+
+.price .fa-circle-xmark {
+    margin-right: 10px;
+}
+
+.featured {
+    background: #fff;
+    color: var(--secondary-dark);
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.featured ul{
+    padding: 0 0 120px 0;
+}
