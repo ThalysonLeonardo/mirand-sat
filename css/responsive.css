@@ -9,4 +9,21 @@
     header .navbar-collapse {
         width: 100%;
     }
+
+    .price {
+        margin: 0 20px 0 20px;
+    }
+
+    .price li {
+        font-weight: 400;
+    }
+
+    .featured {
+        box-shadow: none;
+    }
+
+    .featured ul{
+        padding: 0 0 50px 0;
+    }
 }
+
